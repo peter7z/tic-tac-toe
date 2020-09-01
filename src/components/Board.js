@@ -9,19 +9,19 @@ const Board = () => {
     <div>
       <div className="status">{state}</div>
       <div className="board-row">
-        <Square />
-        <Square />
-        <Square />
+        <Square value={1} />
+        <Square value={1} />
+        <Square value={1} />
       </div>
       <div className="board-row">
-        <Square />
-        <Square />
-        <Square />
+        <Square value={1} />
+        <Square value={1} />
+        <Square value={1} />
       </div>
       <div className="board-row">
-        <Square />
-        <Square />
-        <Square />
+        <Square value={1} />
+        <Square value={1} />
+        <Square value={1} />
       </div>
     </div>
   );
